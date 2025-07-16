@@ -35,17 +35,19 @@ body {
     line-height: var(--line-height-base);
 }
 
-a {
+a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
-a:visited {
-    color: var(--text-color);
-    text-decoration: italic;
+
+a[href]:visited {
+    font-style: italic;
 }
-a:hover{
+
+a[href]:hover {
     text-decoration: underline;
 }
+
 a:active{
     background-color: var(--color-light-grey);
 }
