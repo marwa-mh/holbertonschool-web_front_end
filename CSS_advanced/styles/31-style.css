@@ -324,11 +324,11 @@ padding: 0.5rem;
  .card-work:hover .card-title{
     opacity: 1;
 }
-.card-testimonial .card-quot{
+.card-testimonial .card-quote{
     position: relative;
 }
 
-.card-testimonial .card-quot::before{
+.card-testimonial .card-quote::before{
     content: "\201C";
     position: absolute;
     top: -4.5rem;
