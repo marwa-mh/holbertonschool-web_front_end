@@ -87,7 +87,9 @@ a:active{
 }
 .button:hover{
     color: var(--button-hover-color);
+    background-color: var(--button-hover-background);
     text-decoration: var(--button-hover-text-decoration);
+
 }
 .visually-hidden {
     display: none;
